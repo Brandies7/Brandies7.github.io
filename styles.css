@@ -1,0 +1,63 @@
+body{
+	background-color:rgb(82, 108, 150);
+}
+
+.mainTitle{
+  	font-size:75px;
+  	font-family:fantasy;
+  	animation-name:fadeInOut;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes fadeInOut {
+    0%   {color:rgb(114, 4, 4)}
+    25%  {color:hotpink}
+    50%  {color:rgb(70, 8, 117)}
+    75%  {color:magenta}
+    100% {color:blue}
+}
+ol{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	font-family:cursive;
+	color:black;
+	padding-bottom:30px;
+}
+li a{
+	color:white;
+	display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    float:left;
+}
+.name{
+	font-family:cursive;
+	font-size:40px;
+	text-decoration:underline;
+	padding-bottom:30px;
+	text-shadow:2px 2px 2px white;
+}
+p{
+	font-size:20px;
+	font-family:cursive;
+	color:black;
+	padding-bottom:30px;
+}
+ul {
+    list-style-type:none;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+li a:hover{
+	background-color:grey;
+}
+img{
+	border-radius:30%;
+}
+hr{
+	padding-bottom:30px;
+}

@@ -1,7 +1,3 @@
-body{
-	background-color:rgb(82, 108, 150);
-}
-
 .mainTitle{
   	font-size:75px;
   	font-family:fantasy;
@@ -9,7 +5,7 @@ body{
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-@keyframes fadeInOut {
+@keyframes fadeInOut{
     0%   {color:rgb(114, 4, 4)}
     25%  {color:hotpink}
     50%  {color:rgb(70, 8, 117)}
@@ -26,12 +22,13 @@ ol{
 	padding-bottom:30px;
 }
 li a{
-	color:white;
+	color:black;
 	display:inline-block;
     text-align:center;
     padding:14px 16px;
     text-decoration:none;
     float:left;
+    font-size:20px;
 }
 .name{
 	font-family:cursive;
@@ -46,26 +43,27 @@ p{
 	color:black;
 	padding-bottom:30px;
 }
-ul {
+ul{
     list-style-type:none;
     margin-left:auto;
     margin-right:auto;
     overflow:hidden;
 }
 li a:hover{
-	background-color:grey;
+	background-color:white;
+	border-radius:20%;
+	padding:5px
 }
-img{
-	border-radius:30%;
-	position:relative;
-	overflow: hidden;
-    transition-duration: 3s;
-    transition-property: transform;
+.slideIn{
+  border-radius: 20%;
+  -webkit-transition:-webkit-transform 2s ease-in-out;
+          transition:transform 2s ease-in-out;
 }
-img:hover {
-    transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
+.slideIn:hover{
+  -webkit-transform:rotateY(360deg);
+          transform:rotateY(360deg);
 }
-hr{
-	padding-bottom:30px;
-}
+
+
+
+
